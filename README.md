@@ -8,11 +8,15 @@ A brief description of what this project does.
 - [Figures](#Figures)
 
 ## Description
+<pre>
     The objective of this lab is to display a student's grades in a ListView. By clicking on one of the student's grades, a Toast message will be displayed indicating whether the corresponding subject has been validated or not (grade <10 or not).
-
+</pre>
+<pre>
     Each student has 6 grades. The order of the grades is important since the nth grade of each student corresponds to the nth subject. We obviously need the list of subjects (6 subjects in total). When entering the name of a student, we will use an AutoCompleteTextView that will suggest student names based on the characters we have entered.
+</pre>
 
 ## Content of project
+<pre>
     To connect the list of grades to your ListView, it is imperative to use an adapter.
 
     - Version 1 (ArrayAdapter): 
@@ -23,10 +27,8 @@ A brief description of what this project does.
 
     - Version 3 (Firebase) :
         Now, we want to connect our application to a Firebase database. The student's grades will then be loaded from Firebase when a student is selected. Additionally, we will create a new activity for adding a new student and their grades. By clicking the submit button, we will return directly to the MainActivity.
+</pre>
 
-- 
-- 
--
 
 ## Figures
     The figures below will give you a clearer idea of the expected result.
