@@ -10,13 +10,18 @@
     <AutoCompleteTextView
         android:id="@+id/saisieAuto"
         android:layout_width="367dp"
-        android:layout_height="40dp"
+        android:layout_height="60dp"
         android:layout_alignLeft="@id/notesLst"
         android:layout_alignRight="@id/notesLst"
         android:layout_marginStart="8dp"
         android:layout_marginTop="28dp"
         android:background="@android:color/darker_gray"
-        android:hint="Entrez le nom d'un étudiant" />
+        android:hint="Entrez le nom d'un étudiant"
+
+        android:padding="15dp"
+        android:textColorHint="#fff"
+        android:textStyle="bold|italic"
+        />
 
 
     <ListView
@@ -25,8 +30,10 @@
         android:layout_height="399dp"
         android:layout_centerHorizontal="true"
         android:background="#4DFFFFFF"
-        android:layout_marginTop="80dp"
-        android:layout_marginBottom="16dp" >
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="16dp"
+        android:textColorHint="#fff"
+        >
 
 
     </ListView>
