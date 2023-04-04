@@ -15,8 +15,6 @@ A brief description of what this project does.
     We obviously need the list of subjects (6 subjects in total). When entering the name of a student, 
     we will use an AutoCompleteTextView that will suggest student names based on the characters we have entered.
 
-
-
 ## Content of project
 
     To connect the list of grades to your ListView, it is imperative to use an adapter.
