@@ -14,7 +14,7 @@ A brief description of what this project does.
     Each student has 6 grades. The order of the grades is important since the nth grade of each student corresponds to the nth subject. 
     We obviously need the list of subjects (6 subjects in total). When entering the name of a student, 
     we will use an AutoCompleteTextView that will suggest student names based on the characters we have entered.
-<
+
 
 ## Content of project
 
